@@ -21,6 +21,7 @@
 		A4C2381419C17BC30078E75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C237F619C17BC30078E75C /* UIKit.framework */; };
 		A4C2381C19C17BC30078E75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4C2381A19C17BC30078E75C /* InfoPlist.strings */; };
 		A4C2381E19C17BC30078E75C /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2381D19C17BC30078E75C /* viewTutorialTests.m */; };
+		A4C2382919C17E290078E75C /* XWGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2382819C17E290078E75C /* XWGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A4C2381919C17BC30078E75C /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		A4C2381B19C17BC30078E75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4C2381D19C17BC30078E75C /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		A4C2382719C17E290078E75C /* XWGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWGrid.h; sourceTree = "<group>"; };
+		A4C2382819C17E290078E75C /* XWGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A4C2380419C17BC30078E75C /* Main.storyboard */,
 				A4C2380719C17BC30078E75C /* XWViewController.h */,
 				A4C2380819C17BC30078E75C /* XWViewController.m */,
+				A4C2382719C17E290078E75C /* XWGrid.h */,
+				A4C2382819C17E290078E75C /* XWGrid.m */,
 				A4C2380A19C17BC30078E75C /* Images.xcassets */,
 				A4C237F919C17BC30078E75C /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C2382919C17E290078E75C /* XWGrid.m in Sources */,
 				A4C237FF19C17BC30078E75C /* main.m in Sources */,
 				A4C2380919C17BC30078E75C /* XWViewController.m in Sources */,
 				A4C2380319C17BC30078E75C /* XWAppDelegate.m in Sources */,
