@@ -44,12 +44,20 @@
   _button = [[UIButton alloc] initWithFrame:buttonFrame];
   _button.backgroundColor = [UIColor redColor];
   [_gridView addSubview:_button];
+  
+  // create target for button
+  [_button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)buttonPressed:(id)sender
+{
+  NSLog(@"You pressed the button!");
 }
 
 @end
